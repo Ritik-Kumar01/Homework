@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .item1 {
+            grid-area: navbar;
+        }
+        
+        .item2 {
+            grid-area: aside;
+        }
+        
+        .item3 {
+            grid-area: section;
+        }
+        
+        .item5 {
+            grid-area: footer;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-areas: 'navbar navbar navbar navbar navbar navbar' 'aside aside  section section section section' 'footer footer footer footer footer footer';
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+        
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        
+        .item2 {
+            height: 400px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="grid-container">
+        <div class="item1">Navbar</div>
+        <div class="item2">Aside</div>
+        <div class="item3">Section</div>
+
+        <div class="item5">Footer</div>
+    </div>
+
+</body>
+
+</html>

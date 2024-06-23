@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        
+        .signup-form {
+            width: 300px;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+            background-color: white;
+            padding: 20px;
+            margin: 8% auto 0;
+            /* text-align: center; */
+            font-size: 15px;
+        }
+        
+        .input-box {
+            border-radius: 10px;
+            padding: 10px;
+            /* margin: 10px 0; */
+            width: 90%;
+            border: 1 px solid black;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        
+        .signup-btn {
+            background-color: green;
+            color: white;
+        }
+        
+        .signup-btn1 {
+            background-color: black;
+            color: white;
+        }
+        
+        a {
+            color: green;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+        .logo {
+            width: 8%;
+            margin-top: -50px;
+            margin-bottom: -5px;
+            padding-left: -10px;
+        }
+        
+        .sig {
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signup-form">
+        <h1>Create an Account</h1>
+        <form action="">
+            <label for="fname">Full Name</label><br>
+            <input class="input-box" type="text" placeholder="Ritik Kumar" required><br><br>
+
+            <label for="fname">Email</label><br>
+            <input class="input-box" type="email" placeholder="ritikpareek81077@gmail.com" required><br><br>
+
+            <label for="fname">Password</label><br>
+            <input class="input-box" type="password" placeholder="ritikkumar" required><br><br>
+
+            <label for="fname">Phone Number</label><br>
+            <input class="input-box" type="number" placeholder="8955159068" required><br><br>
+
+            <button class="signup-btn">Sign Up</button><br>
+            <p>OR</p>
+            <button class="signup-btn1"><img  class="logo" src="./googlelogo.png" alt="googleimage"><span class="sig">Sign Up with google</span></button><br>
+            <p>Already have a account ? <a href="#">Login</a></p>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
